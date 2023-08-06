@@ -1,0 +1,30 @@
+a=[10,["ds","rs","php"],23,"python"]
+print(a[1])
+['ds', 'rs', 'php']
+print(a[1][1])
+rs
+#1.store it in variable
+
+a=["ds","km","jm"]
+x,y,z=a
+#2.print store variable
+
+print(x,y,z)
+ds km jm
+#1.1 display num by using limit
+
+a=[10,20,30,40,56,62,78]
+print(a[2:5])
+[30, 40, 56]
+
+#1.2
+print(a[:5])
+[10, 20, 30, 40, 56]
+#1.3
+
+print(a[4:])
+[56, 62, 78]
+#1.4
+
+print(a[:])
+[10, 20, 30, 40, 56, 62, 78]
